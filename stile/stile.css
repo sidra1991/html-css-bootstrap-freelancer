@@ -21,6 +21,19 @@ li {
     display: inline-block;
 }
 
+.sezione-2 {
+    background-color: #1abc9c;
+    height: 80vh;
+    color: white;
+    text-align: center;
+}
+
+.immagine-cerchiata {
+    padding: 4rem;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
 
 @media screen and (max-width: 576px) {
     .grande {
