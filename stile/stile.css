@@ -18,7 +18,6 @@
 
 .sezione-2 {
     background-color: #1abc9c;
-    height: 100vh;
     color: white;
 }
 
@@ -58,6 +57,10 @@
 .t-t img{
     width: 100%;
 }
+
+/*************/
+/**sezione 4**/
+/************/
 
 footer{
     background-color: #3a546d;
