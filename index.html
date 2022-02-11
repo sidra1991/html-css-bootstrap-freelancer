@@ -393,35 +393,76 @@
 
     <!-- un titolo con icona su 2 righe, un form con bottone invariato in tutte le dimenzioni-->
     <div class="container mt-5" >
-        <div class="row justify-content-center ">
-            <div class="col-3"> 
-                <h2>****</h2>
-                <h2>****</h2>
+        <div class="row">
+            <div class="col-12 text-center"> 
+                <h2 class="text-uppercase" > contactme </h2>
+                <div>
+                    <div class="linea-bianca-2" ></div>            
+                    <i class="fa-solid fa-star black"></i>
+                    <div class="linea-bianca-2" ></div>   
+                </div>  
             </div>    
-            <div class="col-11 ">
-                <span>****</span>
-                <hr>
-                <span>****</span>
-                <hr>
-                <span>****</span>
-                <hr>
-                <span>****</span>
-                <hr>
-                <button>****</button>
+            <div class="col-12 ">
+                <form>
+                    <div class="mb-3">
+                      <input type="text" class="form-control input" id="name" placeholder="name" >
+                    </div>
+                   
+                    <div class="mb-3">
+                        <input type="email" placeholder="Email Addres" class="form-control input" id="email" aria-describedby="emailHelp">
+                    </div>
+                     
+                    <div class="mb-3">
+                        <input type="number" placeholder="Phone number" class="form-control input" id="Phone">
+                    </div>
+                     
+                    <div class="mb-3">
+                        <textarea class="form-control input" placeholder="message" id="message"></textarea>
+                    </div>
+                     
+                    <button type="submit" class="btn btn-success">Send</button>
+                  </form>
             </div>    
         </div>   
     </div>
     <!-- un footer con 4 elementi elementi disposti verticalmente nella versione piccola, mentre nelle altre solo 3 sono orizzontali, in tutte le versioni l'ultimo elemento è posizionato sul fondo pagina a tutto schermo, il tutto su sfondo diverso solo per l'ultimo elemento -->
     <footer class="container-fluid mt-5" >   
         <div class="row justify-content-center">
-            <div class="col-12 col-sm-4 "> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum esse fuga iusto nisi iste tenetur minus commodi quibusdam ea voluptates quo earum, eaque cumque sit facere sint quaerat dignissimos! Nulla.</p> </div>
-            <div class="col-12 col-sm-4 "> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, nobis? Iste vel necessitatibus libero omnis exercitationem nisi earum aperiam aspernatur modi, mollitia ad dignissimos? Rem quis voluptatem est repudiandae mollitia.</p> </div>
-            <div class="col-12 col-sm-4 "> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, nobis? Iste vel necessitatibus libero omnis exercitationem nisi earum aperiam aspernatur modi, mollitia ad dignissimos? Rem quis voluptatem est repudiandae mollitia.</p> </div>     
+            
+            <div class="col-12 col-sm-4 mt-5"> 
+                <h4 class="text-uppercase" >location</h4>
+                <p>2215 John Daniel Clark, MO 54243</p> 
+            </div>
+
+            <div class="col-12 col-sm-4 mt-5"> 
+                <h4 class="text-uppercase" >around the web </h4> 
+                
+                <div class="marchi" >
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+
+                <div class="marchi" >
+                    <i class="fab fa-google-plus-g"></i>
+                </div>
+
+                <div class="marchi" >
+                    <i class="fab fa-twitter"></i>
+                </div> 
+
+                <div class="marchi" >
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-sm-4 mt-5"> 
+                <h4 class="text-uppercase" > about freelancer </h4>
+                <p>freelance is a free to use, open source Boostrap theme created by <a href="#"> Start Boostrap </a>.</p> </div>     
         </div>
     </footer> 
     <div class="container-fluid bg-stile" >
         <div class="row justify-content-center" >
-            <div class="col-4"> <p>Lorem ipsum dolor sit ame</p> </div>
+            <div class="col-4"> <p>Copyright <i class="far fa-registered"></i> Your Website 2019</p> </div>
         </div>
     </div>
 
