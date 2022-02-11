@@ -29,17 +29,31 @@
     display: inline-block;
 }
 
-.sezione-2 i{
-    width: 20px;
+
+.fa-star{
+    font-size: 2rem;
     color: white;
-    vertical-align: bottom;
+    vertical-align: sub;
 }
 
 #Layer_1{
     width: 20vw;
 }
 
+/***********/
+/*sezione 3*/
+/***********/
 
+.black{
+    color: black;
+}
+
+.linea-bianca-2 {
+    height: 2px;
+    width: 30px;
+    background-color: black;
+    display: inline-block;
+}
 
 .riquadro {
     height: 30vh;
