@@ -22,6 +22,25 @@
     color: white;
 }
 
+.linea-bianca {
+    height: 2px;
+    width: 30px;
+    background-color: white;
+    display: inline-block;
+}
+
+.sezione-2 i{
+    width: 20px;
+    color: white;
+    vertical-align: bottom;
+}
+
+#Layer_1{
+    width: 200px;
+}
+
+
+
 .riquadro {
     height: 30vh;
 }
